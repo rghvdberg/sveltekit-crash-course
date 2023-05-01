@@ -12,7 +12,8 @@
   - Course files https://github.com/iamshaunjp/sveltekit-tutorial
   - Sveltekit docs https://kit.svelte.dev/docs/introduction
 
-- [ ] [2 - Setting up a SvelteKit App](https://www.youtube.com/watch?v=_M-iOKo4FnE&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=2&pp=iAQB)
+- [x] [2 - Setting up a SvelteKit App](https://www.youtube.com/watch?v=_M-iOKo4FnE&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=2&pp=iAQB)
+  - `npm init svelte@next myApp`
 - [ ] [3 - Svelte Components (refresh)](https://www.youtube.com/watch?v=WK4SN853CqI&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=3&pp=iAQB)
 - [ ] [4 - Pages & Routes](https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4&pp=iAQB)
 - [ ] [5 - Reusable Components](https://www.youtube.com/watch?v=5IajHJULs5I&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=5&pp=iAQB)
