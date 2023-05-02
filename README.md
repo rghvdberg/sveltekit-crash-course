@@ -14,8 +14,12 @@
 
 - [x] [2 - Setting up a SvelteKit App](https://www.youtube.com/watch?v=_M-iOKo4FnE&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=2&pp=iAQB)
   - `npm init svelte@next myApp`
-- [ ] [3 - Svelte Components (refresh)](https://www.youtube.com/watch?v=WK4SN853CqI&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=3&pp=iAQB)
-- [ ] [4 - Pages & Routes](https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4&pp=iAQB)
+- [x] [3 - Svelte Components (refresh)](https://www.youtube.com/watch?v=WK4SN853CqI&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=3&pp=iAQB)
+- [x] [4 - Pages & Routes](https://www.youtube.com/watch?v=ftiTVitDbx0&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=4&pp=iAQB)
+  - filesystem-based router
+    - `src/routes` creates root
+    - `src/routes/about` creates `/about`
+  - https://kit.svelte.dev/docs/routing
 - [ ] [5 - Reusable Components](https://www.youtube.com/watch?v=5IajHJULs5I&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=5&pp=iAQB)
 - [ ] [6 - Layout Components](https://www.youtube.com/watch?v=shTnwJa4SRA&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=6&pp=iAQB)
 - [ ] [7 - Reset Layouts](https://www.youtube.com/watch?v=t7UlyE2Jhx4&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=7&pp=iAQB)
