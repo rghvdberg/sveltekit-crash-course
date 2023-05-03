@@ -20,7 +20,25 @@
     - `src/routes` creates root
     - `src/routes/about` creates `/about`
   - https://kit.svelte.dev/docs/routing
-- [ ] [5 - Reusable Components](https://www.youtube.com/watch?v=5IajHJULs5I&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=5&pp=iAQB)
+- [x] [5 - Reusable Components](https://www.youtube.com/watch?v=5IajHJULs5I&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=5&pp=iAQB)
+
+  - `$lib` = `src/lib/`
+    - I had to edit `.svelte-kit/tsconfig.json`
+    ```json
+    {
+      "compilerOptions": {
+        "paths": {
+          "$lib": [
+              "../src/lib"
+          ],
+          "$lib/*": [
+              "../src/lib/*"
+          ]
+      },
+    ```
+    - see also: https://github.com/sveltejs/language-tools/issues/1459
+    - `/src/lib/component.svelte` works fine, no need for `+page.svelte` naming
+
 - [ ] [6 - Layout Components](https://www.youtube.com/watch?v=shTnwJa4SRA&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=6&pp=iAQB)
 - [ ] [7 - Reset Layouts](https://www.youtube.com/watch?v=t7UlyE2Jhx4&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=7&pp=iAQB)
 - [ ] [8 - Loading Data & SSR](https://www.youtube.com/watch?v=a5OiuEu1Q6M&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=8&pp=iAQB)
