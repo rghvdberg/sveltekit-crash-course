@@ -39,7 +39,9 @@
     - see also: https://github.com/sveltejs/language-tools/issues/1459
     - `/src/lib/component.svelte` works fine, no need for `+page.svelte` naming
 
-- [ ] [6 - Layout Components](https://www.youtube.com/watch?v=shTnwJa4SRA&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=6&pp=iAQB)
+- [x] [6 - Layout Components](https://www.youtube.com/watch?v=shTnwJa4SRA&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=6&pp=iAQB)
+  - use `+layout.svelte` for layouts
+  - components are rendered in `<slot> </slot>`
 - [ ] [7 - Reset Layouts](https://www.youtube.com/watch?v=t7UlyE2Jhx4&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=7&pp=iAQB)
 - [ ] [8 - Loading Data & SSR](https://www.youtube.com/watch?v=a5OiuEu1Q6M&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=8&pp=iAQB)
 - [ ] [9 - Client-side vs Server-side Code](https://www.youtube.com/watch?v=Nzcefm5Izc8&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=9&pp=iAQB)

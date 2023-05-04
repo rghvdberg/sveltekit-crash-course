@@ -11,6 +11,7 @@
   .title {
     display: flex;
   }
+
   .title img {
     display: inline-block;
     filter: invert(88%) sepia(18%) saturate(886%) hue-rotate(199deg)
