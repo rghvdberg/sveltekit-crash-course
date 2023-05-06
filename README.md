@@ -43,12 +43,12 @@
   - use `+layout.svelte` for layouts
   - components are rendered in `<slot> </slot>`
 - [x] [7 - Reset Layouts](https://www.youtube.com/watch?v=t7UlyE2Jhx4&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=7&pp=iAQB)
+- https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-group
   - `+layout.svelte` files inherit from layout files up in the file tree
   - use (group) for layout structure
     - (App), (Guides) doesn't show in the url
     - `routes/+layout.svelte` contains `<slot> </slot>`
     - `(guides)+layout@.svelte` refers to the root layout and thus overrides `(App)/+layout.svelte`
-  - https://kit.svelte.dev/docs/advanced-routing#advanced-layouts-group
   ```
   ├── routes
       ├── (App)
@@ -57,12 +57,20 @@
       │   ├── (guides)
       │   │   ├── guides
       │   │   │   └── +page.svelte
-      │   │   └── +layout@.svelte
-      │   ├── +layout.svelte
-      │   └── +page.svelte
-      └── +layout.svelte
+      │   │   └── +layout@.svelte ┄┐
+      │   ├── +layout.svelte       ┊
+      │   └── +page.svelte         ┊
+      └── +layout.svelte <┄┄┄┄┄┄┄┄┄┘
   ```
-- [ ] [8 - Loading Data & SSR](https://www.youtube.com/watch?v=a5OiuEu1Q6M&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=8&pp=iAQB)
+- [x] [8 - Loading Data & SSR](https://www.youtube.com/watch?v=a5OiuEu1Q6M&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=8&pp=iAQB)
+  - https://kit.svelte.dev/docs/load
+    > A `+page.svelte` file can have a sibling `+page.js` that exports a `load` function, the return value of which is available to the page via the `data` prop:
+  ```
+  ├── guides
+  │   ├── +page.js
+  │   └── +page.svelte
+  └── +layout@.svelte
+  ```
 - [ ] [9 - Client-side vs Server-side Code](https://www.youtube.com/watch?v=Nzcefm5Izc8&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=9&pp=iAQB)
 - [ ] [10 - Dynamic Routes](https://www.youtube.com/watch?v=Y2_bJoFbQQg&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=10&pp=iAQB)
 - [ ] [11 - Redirects](https://www.youtube.com/watch?v=KpruqbynhjE&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=11&pp=iAQB)

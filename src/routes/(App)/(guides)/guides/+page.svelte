@@ -1,10 +1,16 @@
+<script>
+  export let data;
+  let guides = data.props.guides;
+</script>
+
 <div class="guides">
-  <nav>
-    <ul>
-      <li><a href="/">Guide 1</a></li>
-      <li><a href="/">Guide 2</a></li>
-    </ul>
-  </nav>
+  <ul>
+    {#each guides as guide}
+      <li>
+        <a href={"/"}>{guide.title}</a>
+      </li>
+    {/each}
+  </ul>
 </div>
 
 <style>
