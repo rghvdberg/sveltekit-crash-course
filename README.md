@@ -73,7 +73,17 @@
   ```
 - [x] [9 - Client-side vs Server-side Code](https://www.youtube.com/watch?v=Nzcefm5Izc8&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=9&pp=iAQB)
   - on initial request code is run on the server, and some DOM objects aren't available.
-- [ ] [10 - Dynamic Routes](https://www.youtube.com/watch?v=Y2_bJoFbQQg&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=10&pp=iAQB)
+- [x] [10 - Dynamic Routes](https://www.youtube.com/watch?v=Y2_bJoFbQQg&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=10&pp=iAQB)
+  - `id` get's it's own folder
+    ```
+    ├── guides
+    │   ├── [id]
+    │   │   ├── +page.js
+    │   │   └── +page.svelte
+    │   ├── +page.js
+    │   └── +page.svelte
+    └── +layout@.svelte
+    ```
 - [ ] [11 - Redirects](https://www.youtube.com/watch?v=KpruqbynhjE&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=11&pp=iAQB)
 - [ ] [12 - Prefetching Data](https://www.youtube.com/watch?v=YK5Pmcv0BFk&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=12&pp=iAQB)
 - [ ] [13 - Error Pages](https://www.youtube.com/watch?v=MUjgMu5no3A&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=13&pp=iAQB)
