@@ -1,3 +1,4 @@
+import { redirect } from "@sveltejs/kit";
 export async function load({ fetch, params }) {
   const id = params.id;
   const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
@@ -10,8 +11,5 @@ export async function load({ fetch, params }) {
       },
     };
   }
-  return {
-    status: res.status,
-    error: new Error("Could not fetch the guide"),
-  };
+  throw redirect(302, "/guides");
 }

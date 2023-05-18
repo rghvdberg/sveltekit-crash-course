@@ -84,7 +84,15 @@
     │   └── +page.svelte
     └── +layout@.svelte
     ```
-- [ ] [11 - Redirects](https://www.youtube.com/watch?v=KpruqbynhjE&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=11&pp=iAQB)
+- [x] [11 - Redirects](https://www.youtube.com/watch?v=KpruqbynhjE&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=11&pp=iAQB)
+  - file `+page.js`
+  ```javscript
+  import { error } from "@sveltejs/kit";
+  throw error(420, "Could not fetch the guides");
+  //
+  import { redirect } from "@sveltejs/kit";
+  throw redirect(302, "/guides");
+  ```
 - [ ] [12 - Prefetching Data](https://www.youtube.com/watch?v=YK5Pmcv0BFk&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=12&pp=iAQB)
 - [ ] [13 - Error Pages](https://www.youtube.com/watch?v=MUjgMu5no3A&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=13&pp=iAQB)
 - [ ] [14 - Deploying to Vercel](https://www.youtube.com/watch?v=gUs-Sissb48&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=14&pp=iAQB)

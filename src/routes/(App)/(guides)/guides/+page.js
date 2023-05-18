@@ -1,3 +1,4 @@
+import { error } from "@sveltejs/kit";
 export async function load({ fetch }) {
   const res = await fetch("https://jsonplaceholder.typicode.com/posts");
   const guides = await res.json();
@@ -9,8 +10,5 @@ export async function load({ fetch }) {
       },
     };
   }
-  return {
-    status: res.status,
-    error: new Error("Could not fetch the guides"),
-  };
+  throw error(420, "Could not fetch the guides");
 }
