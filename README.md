@@ -93,7 +93,9 @@
   import { redirect } from "@sveltejs/kit";
   throw redirect(302, "/guides");
   ```
-- [ ] [12 - Prefetching Data](https://www.youtube.com/watch?v=YK5Pmcv0BFk&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=12&pp=iAQB)
+- [x] [12 - Prefetching Data](https://www.youtube.com/watch?v=YK5Pmcv0BFk&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=12&pp=iAQB)
+  - Prefetching data is enabled by default, no code to add.
+  - Test: Firefox -> `CTRL+SHIFT+I` -> Networking -> hover over link
 - [ ] [13 - Error Pages](https://www.youtube.com/watch?v=MUjgMu5no3A&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=13&pp=iAQB)
 - [ ] [14 - Deploying to Vercel](https://www.youtube.com/watch?v=gUs-Sissb48&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=14&pp=iAQB)
 - [ ] [15 - API Routes](https://www.youtube.com/watch?v=0gor32MSyiA&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=15&pp=iAQB)
