@@ -1,6 +1,6 @@
 import { error } from "@sveltejs/kit";
 export async function load({ fetch }) {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const res = await fetch("/guides/api");
   const guides = await res.json();
 
   if (res.ok) {

@@ -102,4 +102,7 @@
 - [x] [14 - Deploying to Vercel](https://www.youtube.com/watch?v=gUs-Sissb48&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=14&pp=iAQB)
   - <https://vercel.com/login>
   - use github to register
-- [ ] [15 - API Routes](https://www.youtube.com/watch?v=0gor32MSyiA&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=15&pp=iAQB)
+- [x] [15 - API Routes](https://www.youtube.com/watch?v=0gor32MSyiA&list=PL4cUxeGkcC9hpM9ARM59Ve3jqcb54dqiP&index=15&pp=iAQB)
+  - <https://learn.svelte.dev/tutorial/get-handlers>
+  - add `+server.json`
+    - `export function GET()`

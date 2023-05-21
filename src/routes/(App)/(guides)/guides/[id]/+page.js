@@ -2,7 +2,7 @@
 import { error } from "@sveltejs/kit";
 export async function load({ fetch, params }) {
   const id = params.id;
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+  const res = await fetch(`/guides/${id}/api`);
   const guide = await res.json();
 
   if (res.ok) {
